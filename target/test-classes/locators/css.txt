@@ -1,0 +1,68 @@
+//input[@id='username']
+# - id
+. - class
+#username
+input#username
+input[id=username]
+
+
+
+//input[@class='_2zrpKA _1dBPDZ']
+._2zrpKA._1dBPDZ
+input._2zrpKA._1dBPDZ
+body > div.mCRfo9 > div > div > div > div > div.Km0IJL.col.col-3-5 > div > form > div:nth-child(1) > input
+
+
+
+
+div.form__input--floating > input#username
+
+//form[@autocomplete='on']/div[1]/input
+//form[@autocomplete='on']/div[2]/input
+
+form[autocomplete=on] > div:nth-child(1) > input
+
+form[autocomplete=on] input
+
+
+//ul[@class='navbar-nav']/li/a
+ul.navbar-nav > li > a
+
+ul.navbar-nav a
+
+div.custom-scroll a
+div.custom-scroll > ul > li:nth-child(3) > a
+
+
+//form[@autocomplete='on']/div[2]/label
+form[autocomplete=on] > div:nth-child(2) > :nth-child(3)
+
+
+//div[@class='col-12-12 _2tVp4j']/input[2]
+div.col-12-12._2tVp4j > input:nth-child(4)
+
+form[autocomplete=on]
+
+input[id^=xxxxx]
+input[id$=xxxxx]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

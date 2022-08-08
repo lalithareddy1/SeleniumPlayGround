@@ -1,0 +1,147 @@
+Address of element
+
+Complete Xpath / Absolute Xpath
+html/body/div/main/div[2]/div[2]/h1
+html/body/div/main/div[2]/div[2]/h1
+html/body/div/main/div[2]/form/div[2]/input
+
+
+Partial Xpath
+//* - all the tags on the page
+//a  - all the links on the page
+//input
+//*[@id='username']
+//input[@id='username']
+//*[@id="app__container"]/main/div[2]/div[2]/h1
+//*[@id="intl_homepage-injection-zone-1"]/div[2]/div/div/div/ul/li[4]/article/div/div/h3/a/span[1]
+/html/body/div[7]/section[1]/div[2]/div/div/div/ul/li[4]/article/div/div/h3/a/span[1]
+
+custom xpaths
+//input[@name='session_key']
+
+
+One element - multiple xpath
+//*[@id='email']
+//input[@name='email']
+//input[@name='email' and @id='email']
+//input[@name='pass' or @id='email']
+//table[@role='presentation']/tbody/tr[2]/td[1]/input
+//table[@role='presentation']/tbody/tr[2]/td[1]/input[@name='email']
+//table[@role='presentation']/tbody/tr[2]/td[1]/input
+
+//input[@class='_2zrpKA _1dBPDZ']
+//form[@autocomplete='on']/div[2]/input
+/html/body/div[2]/div/div/div/div/div[2]/div/form/div[2]/input
+
+Multiple Elements - same xpath
+//a
+//div[@class='_1vC4OE']  - all prices
+
+
+//ul[@class='navbar-nav']/li[1]/a - first link
+//ul[@class='navbar-nav']/li[2]/a - second
+
+//ul[@class='navbar-nav']/li/a
+//ul[@class='navbar-nav mr-auto']/li/a
+
+//div[@id='block-block-10']/article/footer/div[1]
+
+.... Text ....
+//a[text()='Edition IN']
+//td[text()='12']
+
+
+Variable IDs
+display-price-651088674907
+display-price-128371827312
+
+contains
+starts-with
+XXXXXXX1273671823  //*[starts-with(@id,'XXXXXXX')], //*[contains(@id,'XXXXXXX')]
+123817823XXXXXXXX  //*[contains(@id,'XXXXXXX')]
+123751XXXXX716238  //*[contains(@id,'XXXXXXX')]
+12836172381238618   but to make some other xpath
+
+//article[contains(@class,'gridlet  two-column sticky internal pointer node')]
+
+http://www.nullskull.com/articles/SumCaptchaTest.aspx
+
+
+................................Position...........................................
+//ul[@class='sc-kAzzGY fDqWjJ']/li[3]/a
+//ul[@class='sc-kAzzGY fDqWjJ']/li[position()=3]/a
+
+//div[@class='_3qd5C5']
+//div[@class='_3qd5C5'][3]
+//div[@class='_3qd5C5']/a
+//div[@class='_3qd5C5'][position()=2]/a
+//div[@class='_3qd5C5'][2]/a
+
+................................ancestor/descendant...........................................
+//ul[@id='menu-main-menu']/li/a
+//ul[@id='menu-main-menu']/descendant::a
+//div[@class='_3qd5C5']/descendant::a
+//div[@class='_2NHqR1 row']/descendant::a
+
+//div[@class='_2NHqR1 row']/ancestor::div[2]/div[1]
+
+................................child/parent...........................................
+
+//div[@class='TW4owM']/child::div
+//div[@class='TW4owM']/parent::div
+
+................................Following/preceding...........................................
+//div[@class='_2NHqR1 row']/following::a
+//div[@class='_2NHqR1 row']/preceding::a
+//div[@class='_2NHqR1 row']/preceding::div
+................................following-sibling/preceding-sibling...........................................
+//div[@class='_2NHqR1 row']/following-sibling::div
+
+
+//*[@id="align"]/span[5]/input
+//span[text()='Microsoft Excel']/input
+//label[text()='Female']/preceding-sibling::input
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+inputtext login_form_input_box
+
+
+
+
+
+
+
